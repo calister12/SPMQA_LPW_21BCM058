@@ -1,1 +1,5 @@
-print("hello this is the initial code")
+import math
+l=[]
+for i in range(1,6):
+    l.append(math.ceil(i))
+print(l)
